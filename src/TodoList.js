@@ -9,7 +9,7 @@ class TodoList extends Component {
         return (
             <div>
                 <h1>Todo List!</h1>
-                <ul>
+                <ul className="Todo-li">
                     <li>Todo 1</li>
                     <li>Todo 2</li>
                 </ul>
