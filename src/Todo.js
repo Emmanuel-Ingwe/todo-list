@@ -4,7 +4,9 @@ class Todo extends Component {
     render() {
         return (
             <div>
-                <li></li>
+                <button>Edit</button>
+                <button>X</button>
+                <li>{this.props.task}</li>
             </div>
         );
     }
