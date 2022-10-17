@@ -23,7 +23,7 @@ class TodoList extends Component {
     }
     render() {
         const todos = this.state.todos.map(todo => {
-            return <Todo key={todo.id} task={todo.task} removeTodo={this.remove} />;
+            return <Todo key={todo.id} id={todo.id} task={todo.task} removeTodo={this.remove} />;
         });
         return (
             <div>
