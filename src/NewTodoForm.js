@@ -33,29 +33,24 @@ class NewTodoForm extends Component {
                 <button>Add Todo</button>
             </form>
         );
-        // return (
-        //     <div>
-
-        //     </div>
-        // )
     }
 }
 
-class ZenQuote extends Component {
-    render() {
-       componentDidMount() {
-        axios.get("https//api.github.com/Zen").then(resonse => {
-            console.log(response)
-        })
-       } 
-       rednder() {
-        return (
-            <div>
-                <h1>Always Remember...</h1>
-            </div>
-        )
-       }
-    }
-}
+// class ZenQuote extends Component {
+//     render() {
+//        componentDidMount() {
+//         axios.get("https//api.github.com/Zen").then(resonse => {
+//             console.log(response)
+//         })
+//        } 
+//        rednder() {
+//         return (
+//             <div>
+//                 <h1>Always Remember...</h1>
+//             </div>
+//         )
+//        }
+//     }
+// }
 
 export default NewTodoForm;
