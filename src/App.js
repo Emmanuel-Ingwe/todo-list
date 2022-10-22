@@ -10,11 +10,11 @@ class App extends Component {
         <TodoList />
       </div>
     );
-    return (
-      <div>
-        <Link activeClassName="asct" to="/Todolist"></Link>
-      </div>
-    );
+    // return (
+    //   <div>
+    //     <Link activeClassName="asct" to="/Todolist"></Link>
+    //   </div>
+    // );
   }
 }
 
