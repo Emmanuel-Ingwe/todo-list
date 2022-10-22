@@ -10,7 +10,14 @@ class App extends Component {
         <TodoList />
       </div>
     );
+    return (
+      <div>
+        <Link to="/Todolist"></Link>
+      </div>
+    );
   }
 }
+
+
 
 export default App;
